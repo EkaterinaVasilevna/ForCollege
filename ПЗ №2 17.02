@@ -1,0 +1,17 @@
+x = 4
+y = 7
+print((x > y) and (y > x))
+print((y > x) and (x < y))
+print((x > y) or (y > x))
+print(not (y > x))
+z = x + y
+print((z > y) or (x < y))
+print((x < y) or (x = y))
+print((z > x) or (z < x))
+print((x > y) or (x > z))
+a = 'прожектор'
+b = 'фонарь'
+print((a > b) and (a < b))
+print((b > a) and (b < a))
+print((a > b) or (a < b))
+print(not(b < a))
