@@ -1,0 +1,4 @@
+x = 3
+y = 6
+print(x < 100 and y > 1)
+print(x > 2 and y < 4)
