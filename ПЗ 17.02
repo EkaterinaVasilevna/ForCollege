@@ -1,0 +1,16 @@
+tseloe = 10
+drobnoe = 8,4
+stroka = 'No'
+stroka2 = 'Yes'
+stroka3 = '-'
+big_netseloe = tseloe * 3,5
+drobnoe = drobnoe - 1
+stroka = stroka * 2
+stroka2 = stroka2 * 3
+stroka = stroka + stroka2 + stroka2
+print(tseloe / drobnoe) 
+print(big_netseloe / drobnoe)
+print(stroka)
+print(tseloe)
+print(drobnoe)
+print(big_netseloe)
