@@ -1,0 +1,9 @@
+x = int(input('Введите число:'))
+y = int(input('Введите число:'))
+if x > y:
+      c = x - y
+elif x > y:
+      c = x + y
+else:
+      c = x
+print(c)
