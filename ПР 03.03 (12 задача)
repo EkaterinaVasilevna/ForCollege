@@ -1,0 +1,7 @@
+x = int(input('Введите число'))
+y = int(input('Введите число'))
+z = x + y
+a = x - y
+v = x * y
+w = x / y
+print(z, a, v, w)
