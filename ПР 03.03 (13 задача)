@@ -1,0 +1,5 @@
+a = int(input('Введите число'))
+b = int(input('Введите число'))
+w = (a + b)/ 2
+c = a * a + b * b
+print(w, c)
