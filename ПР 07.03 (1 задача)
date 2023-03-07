@@ -1,0 +1,8 @@
+x = float(input('Введите число'))
+y = float(input('Введите число'))
+if x > y:
+    max = x
+    print(x)
+else:
+    min = x
+    print(x)
