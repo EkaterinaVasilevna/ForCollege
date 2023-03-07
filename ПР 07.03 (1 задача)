@@ -1,0 +1,8 @@
+a = int(input('Введите вещественное число'))
+s = int(input('Введите вещественное число'))
+if a > s:
+    max = a
+    print(a)
+else:
+    min = a
+    print(s)
