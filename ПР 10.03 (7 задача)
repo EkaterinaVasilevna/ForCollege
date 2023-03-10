@@ -1,0 +1,6 @@
+x = float(input('Введите число'))
+y = float(input('Введите число'))
+if x < y:
+    print('{x} меньше {y}')
+else:
+    print('{y}, меньше {x}')
