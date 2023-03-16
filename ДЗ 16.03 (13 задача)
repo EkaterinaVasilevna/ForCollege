@@ -1,0 +1,12 @@
+A = int(input('Введите число '))
+B = int(input('Введите число '))
+C = int(input('Введите число '))
+Pi = 3,14
+sin = A*C/A*B
+cos = C*B/A*B
+if sin < 3.14/4:
+    y = cos
+    print(y, 'Косинус больше')
+else:
+    y = sin
+    print(y, 'Синус меньше')
