@@ -1,0 +1,11 @@
+x = int(input('Введите число'))
+k = int(input('Введите число'))
+if k < x:
+    y = x
+    print(y)
+else:
+    y = k
+    print(y)
+    if k == x:
+        y = k
+        print(y)
