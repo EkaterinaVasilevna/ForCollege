@@ -1,0 +1,13 @@
+from random import randint
+a = int(input('Введите число'))
+b = randint(1, 100)
+n = 1
+while a!= b:
+    if a > b:
+        print('Число меньше')
+    else:
+        print('Число больше')
+        a = int(input('У тебя не получилось. Может еще раз?'))
+        n += 1 
+        print('Ты выиграл, юху!')
+        break
