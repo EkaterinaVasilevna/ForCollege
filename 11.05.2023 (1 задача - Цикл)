@@ -1,0 +1,2 @@
+for i in range(10, 22):
+    print(i, i * 25.4)
