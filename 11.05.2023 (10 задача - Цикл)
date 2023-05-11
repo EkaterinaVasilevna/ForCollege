@@ -1,0 +1,5 @@
+for i in range(a, b, i = 101):
+    g = int(input("Введите длину до 100"))
+    b = int(input("Введите длину до 100"))
+    x = a
+    print(n, x**0.5 )
