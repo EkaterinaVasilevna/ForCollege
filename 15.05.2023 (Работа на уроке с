@@ -1,0 +1,10 @@
+def schet():
+    a = int(input("Введите первое число"))
+    b = int(input("Введите второе число"))
+    c = int(input("Введите третье число"))
+    if a > b and a > c and c > b:
+        print(a - c + b)
+    else:
+        print(a + c - b)
+    return a, b, c
+f, u, w = schet()
