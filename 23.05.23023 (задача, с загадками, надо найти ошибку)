@@ -1,0 +1,22 @@
+def yes_or_no1():
+    answer = input("Хочешь разгадать загадку? Если ты готов, то отвечай 'Да' и мы начнем!")
+    answer = answer.lower()
+    if answer == "да":
+        print("Ну что, начнем!")
+        question = input("Завязать можно, а развязать нельзя. Что это такое?")
+        question = question.lower()
+        n = 0
+        while True:
+            if question == "разговор":
+                print(question, "Молодец! Это правильный ответ")
+                break
+            else:
+                print("Ты не отгадал загадку. Попробуй еще, давай начнем занаво! )")
+                n += 1 
+                print("Ты использовал попыток из 5:", n)
+                break
+                if n == 5:
+                    break
+                    print("Ты использовал все попытки")
+                    
+yes_or_no1()
