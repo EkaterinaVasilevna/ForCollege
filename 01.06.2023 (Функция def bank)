@@ -1,0 +1,8 @@
+summa  = int(input("Введите сумму вклада: \n"))
+year = int(input("Введите на сколько лет вы взяли эту сумму: \n "))
+def bank():
+    percent = 10
+    money = summa * (1 + percent / 100) ** year
+    print(money)
+bank()
+    
