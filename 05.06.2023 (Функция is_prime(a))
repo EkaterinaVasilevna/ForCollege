@@ -1,0 +1,9 @@
+a = int(input("Введите число от 0 до 1.000: \n"))
+def is_prime(a):
+    result = (a == 2 or a % 2 != 0)
+    if result:
+        for i in range(3, int(a**0.5), 2):
+            if a % i == 0:
+                return False
+                return result
+print (is_prime(a))
