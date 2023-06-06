@@ -1,0 +1,14 @@
+def date(day, month, year):
+    if month == 2:
+        if year % 4 == 0 and (year % 100 != 0 or year % 400 == 0):
+            days_in_month = 29
+        else:
+            days_in_month = 28
+            return True
+            else:
+                month in [4, 6, 9, 11]:
+                days_in_month = 30
+                else:
+                    days_in_month = 31
+                    print(date(day, month, year))
+date(day, month, year)                
