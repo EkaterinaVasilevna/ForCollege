@@ -1,0 +1,39 @@
+x = int(input('Ввести 6-значное число '))
+def number():
+    if x > 99999 and x < 1000000:
+        a = x // 100000
+        b = x % 100000
+        c = b // 10000
+        d = b % 10000
+        s = d // 1000
+        i = d % 1000
+        q = i // 100
+        u = i % 100
+        h = u // 10
+        w = h % 10
+        print(a, c, s, q, h, w)
+        if a==2:
+            print(a, 'Подходит')
+        else:
+            print(a, 'не подходит')
+            if c==2:
+                print(c, 'Подходит')
+            else:
+                print(c, 'не подходит')
+                if s==2:
+                    print(s, 'Подходит')
+                else:
+                    print(s, 'не подходит')   
+                    if q==2:
+                        print(q, 'Подходит')
+                    else:
+                        print(q, 'не подходит')
+                        if h==2:
+                            print(h, 'Подходит')
+                        else:
+                            print(h, 'не подходит')   
+                            if w==2:
+                                print(w, 'Подходит')
+                            else:
+                                print(w, 'не подходит') 
+number()
