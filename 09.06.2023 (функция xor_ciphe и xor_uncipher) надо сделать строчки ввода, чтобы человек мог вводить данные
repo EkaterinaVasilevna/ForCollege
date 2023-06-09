@@ -1,0 +1,14 @@
+def xor_cipher(string: str, key: int):
+    line = [None] * len(string) 
+    for i in range(len(string)):
+        line[i] = str(ord(string[i]) ^ key)
+    return line
+ln = xor_cipher('a', 43)
+print(ln)
+def xor_uncipher(string: str, key: int):
+    line = string.split()
+    for i in range(len(line)):
+        line[i] = chr(int(line[i]) ^ key)
+    return line
+    boll = xor_uncipher(ln, 34)
+    print(boll)
