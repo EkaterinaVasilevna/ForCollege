@@ -1,0 +1,8 @@
+def nb_year (p0, p, percent, aug):
+    p = p0 
+    n = 0
+    while (p<=1200): 
+        p += ((percent/100)*p0)+aug 
+        n += 1
+    return n
+print (nb_year(1000, 1200, 2, 50))
